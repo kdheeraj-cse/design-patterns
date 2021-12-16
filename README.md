@@ -21,7 +21,9 @@ JAVA design patterns
 
 ### Behavioral Design Pattern
 1. Interpreter
-2. Chain of Responsibility
+2. #### Chain of Responsibility : 
+        chain of responsibility pattern, Sender sends a request to a chain of objects, and any 
+        object in the chain can handle the request. this reduce the coupling of sender to its receiver
 3. #### Iterator : 
         For a collection,provide the abstraction to iterate it, so the iteration process should 
         not be dependent on the underlying collection.
