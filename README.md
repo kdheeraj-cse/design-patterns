@@ -4,7 +4,7 @@ JAVA design patterns
 ### Creational Design patterns
 1. Abstract Factory Pattern
 2. Factory Pattern
-3. Singleton 
+3. [Singleton](https://github.com/kdheeraj-cse/design-patterns/tree/main/src/org/dheeraj/creational/singleton) 
 4. Prototype
 5. Builder
 
