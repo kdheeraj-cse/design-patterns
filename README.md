@@ -22,10 +22,12 @@ JAVA design patterns
 ### Behavioral Design Pattern
 1. Interpreter
 2. Chain of Responsibility
-3. Iterator
-4. #### Strategy :  [code here](https://github.com/kdheeraj-cse/design-patterns/tree/main/src/org/dheeraj/behavioral/strategy) 
+3. #### Iterator : 
+        For a collection,provide the abstraction to iterate it, so the iteration process should not be dependent on the underlying
+        collection.
+4. #### Strategy : [code here](https://github.com/kdheeraj-cse/design-patterns/tree/main/src/org/dheeraj/behavioral/strategy) 
         Frequently changing behavior should be code externally and their super implementation must
-        be passed as a member variable (Composition), So the behavior can be decided at the runtime
+        be passed as a member variable (Composition), So the behavior can be decided at the runtime.
 5. Visitor
 6. Template method/pattern
 7. Command
