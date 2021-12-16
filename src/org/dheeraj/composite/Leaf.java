@@ -16,6 +16,11 @@ public class Leaf implements Component{
     }
 
     @Override
+    public void setPrice(Integer price) {
+        this.price=price;
+    }
+
+    @Override
     public void addComponent(Component component) {
 
     }

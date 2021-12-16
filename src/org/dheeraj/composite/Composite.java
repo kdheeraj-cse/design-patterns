@@ -1,10 +1,11 @@
 package org.dheeraj.composite;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Composite implements Component{
 
-    private List<Component> list;
+    private List<Component> list = new ArrayList<>();
     private String name;
     private Integer price;
 
@@ -14,12 +15,18 @@ public class Composite implements Component{
 
     @Override
     public Integer getPrice() {
+        this.price = 0;
         list.forEach(
                e -> {
-                   price+=e.getPrice();
+                   this.price+=e.getPrice();
                }
         );
-        return price;
+        return this.price;
+    }
+
+    @Override
+    public void setPrice(Integer price) {
+        this.price+=price;
     }
 
     @Override
