@@ -6,6 +6,14 @@ JAVA design patterns
 2. Factory Pattern
 3. #### Singleton : [code here](https://github.com/kdheeraj-cse/design-patterns/tree/main/src/org/dheeraj/creational/singleton)
          A Single object instance across the JVM.
+         Early Initialization - Object is intialized when class is defined
+         Late Initialization - whenever object is needed, object is initialized
+         
+         Singleton can be breaked by
+         1. Clone - to prevent override clone method and throw clonennotsupported exception
+         2. Serailization - to prevent use protected Object readresolve method, which returns instance
+         3. Reflection - to prevent use ENUMS, as ENUMS constructor are accessible by JVM only.
+         
 4. Prototype
 5. Builder
 
